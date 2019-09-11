@@ -1,20 +1,150 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+  <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+  <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+  <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+  <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<div id="wrapper">
+
+  <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+      <div id="header" class="nav-collapse">
+          <div class="row clearfix">
+              <div class="col-1">
+
+                  <!--Logo-->
+                  <div id="logo">
+
+                      <!--Logo that is shown on the banner-->
+                      <img src="../assets/images/logo.png" id="banner-logo" alt="Landing Page"/>
+                      <!--End of Banner Logo-->
+
+                      <!--The Logo that is shown on the sticky Navigation Bar-->
+                      <img src="../assets/images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                      <!--End of Navigation Logo-->
+
+                  </div>
+                  <!--End of Logo-->
+
+                  <aside>
+
+                      <!--Social Icons in Header-->
+                      <ul class="social-icons">
+                          <li>
+                              <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                  <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a target="_blank" title="Google+" href="http://google.com/+username">
+                                  <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                  <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                  <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a target="_blank" title="behance" href="http://www.behance.net">
+                                  <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                              </a>
+                          </li>
+                      </ul>
+                      <!--End of Social Icons in Header-->
+
+                  </aside>
+
+                  <!--Main Navigation-->
+                  <nav id="nav-main">
+                      <ul>
+                          <li>
+                              <a href="#banner">Home</a>
+                          </li>
+                          <li>
+                              <a href="#about">About</a>
+                          </li>
+                          <li>
+                              <a href="#gallery">Gallery</a>
+                          </li>
+                          <li>
+                              <a href="#services">Services</a>
+                          </li>
+                          <li>
+                              <a href="#testimonials">Testimonials</a>
+                          </li>
+                          <li>
+                              <a href="#clients">Clients</a>
+                          </li>
+                          <li>
+                              <a href="#pricing">Pricing</a>
+                          </li>
+                      </ul>
+                  </nav>
+                  <!--End of Main Navigation-->
+
+                  <div id="nav-trigger"><span></span></div>
+                  <nav id="nav-mobile"></nav>
+
+              </div>
+          </div>
+      </div><!--End of Header-->
+
+      <!--Banner Content-->
+      <div id="banner-content" class="row clearfix">
+
+          <div class="col-38">
+
+              <div class="section-heading">
+                  <h1>A FREE AND SIMPLE LANDING PAGE</h1>
+                  <h2>Namari is a free landing page template you can use for your projects. It is free to use for your
+                      personal and commercial projects, enjoy!</h2>
+              </div>
+
+              <!--Call to Action-->
+              <a href="#" class="button">START CREATING TODAY</a>
+              <!--End Call to Action-->
+
+          </div>
+
+      </div><!--End of Row-->
+  </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+    <app-intro></app-intro>
+
+     <!--Gallery-->
+      <app-gallery></app-gallery>
+    <!--End of Gallery-->
+
+    <!--Content Section-->
+    <app-content></app-content>
+    <!--End of Content Section-->
+
+    <!--Testimonials-->
+    <app-testimonial></app-testimonial>
+    <!--End of Testimonials-->
+
+    <!--Clients-->
+    <app-clients></app-clients>
+    <!--End of Clients-->
+
+    <!--Pricing Tables-->
+    <app-pricing></app-pricing>
+    <!--End of Pricing Tables-->
+
+  </main>
+  <!--End Main Content Area-->
+
+  <!--Footer-->
+  <app-footer></app-footer>
+  <!--End of Footer-->
+
+</div>
