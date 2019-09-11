@@ -1,2 +1,5 @@
 after installation and serving the the application.
 I will change the index.html to my static content which I am to use.
+We start by converting the html to components
+then install font awesome with the code below
+
